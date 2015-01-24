@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bettracker.web.ui", "bettracker.web.ui\bettracker.web.ui.csproj", "{0D35E520-DACA-4A24-A413-D31D58E93CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bettracker.web.ui.Tests", "bettracker.web.ui.Tests\bettracker.web.ui.Tests.csproj", "{B36EA045-2B0C-408F-B711-D422F6F7F47F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{C6402434-D760-4DDA-8C36-8979A0B13A7E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{8DF20316-EDD2-4BB4-838A-9EDCD0B5D9C2}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\bettrackerwebui-WAWS-dev.json = PublishScripts\Configurations\bettrackerwebui-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D35E520-DACA-4A24-A413-D31D58E93CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D35E520-DACA-4A24-A413-D31D58E93CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D35E520-DACA-4A24-A413-D31D58E93CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D35E520-DACA-4A24-A413-D31D58E93CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36EA045-2B0C-408F-B711-D422F6F7F47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36EA045-2B0C-408F-B711-D422F6F7F47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36EA045-2B0C-408F-B711-D422F6F7F47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36EA045-2B0C-408F-B711-D422F6F7F47F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DF20316-EDD2-4BB4-838A-9EDCD0B5D9C2} = {C6402434-D760-4DDA-8C36-8979A0B13A7E}
+	EndGlobalSection
+EndGlobal
